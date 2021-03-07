@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    String line = sc.nextLine();
+    int i=1;
+
+    do{
+        System.out.println(i + " " + line);
+        
+        if(sc.hasNextLine()){
+          line=sc.nextLine();  
+        }
+        
+        else{
+           line=null; 
+        }
+
+        i=i+1;
+    
+        }while(line!=null);
+    }
+}
+
